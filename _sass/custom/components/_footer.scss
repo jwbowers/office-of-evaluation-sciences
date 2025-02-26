@@ -1,12 +1,16 @@
 // Footer ------------- //
 
 footer {
-  @include typeset('alt', '3xs')
-
+  @include typeset('alt', '2xs');
+  @include u-line-height('body', 6);
   a {
-    @include u-font('alt', '3xs');
+    @include u-font('alt', '2xs');
     font-weight: fw('bold') !important;
     text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+      color: color($color-brand-dark-hover);
+    }
   }
 
   .logo-icon,
@@ -17,11 +21,7 @@ footer {
 }
 
 .footer-links {
-  margin-bottom: units(3);
-
-  li {
-    margin-bottom: 0;
-  }
+  margin-bottom: units(2);
 }
 
 .footer-logo-links {
@@ -29,7 +29,7 @@ footer {
 }
 
 .footer-links-heading {
-  @include u-font('alt', '3xs');
+  @include u-font('alt', '2xs');
   font-weight: fw('normal');
   margin-bottom: units(1);
 

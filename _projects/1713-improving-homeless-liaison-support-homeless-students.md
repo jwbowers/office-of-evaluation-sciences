@@ -1,16 +1,23 @@
 ---
-title:  Identifying Students for the Education for Homeless Children and Youth Program
+title:  Identifying students for the Education for Homeless Children and Youth Program
 permalink: /projects/improving-homeless-liaison-support/
-tags: project  
-image:
-image-credit: 
+tags:
+- project
+- housing
+share_image: /assets/img/project-images/1713-image.jpeg
+image: /assets/img/project-images/1713-image.jpeg
+image_alt_text: Books in a library
+image-credit: https://pxhere.com/en/photo/1575601
 analysis-plan: 
 abstract: /assets/abstracts/1713-supporting-homeless-students-abstract.pdf
 year: 2018  
+type: Impact evaluation of program change
 status: Complete
-domain: Communications
+domain:
+ - Education
+ - Housing
 agency: Education
-summary: Identifying Homeless Students for Educational Support Services
+summary: Identifying homeless students for educational support services
 ---
 ## What was the challenge?
 
@@ -24,7 +31,7 @@ New email communication materials were developed using behavioral insights to sh
 
 LEAs were randomly assigned to use one of two conditions: 1) less frequent, more formal emails on updated guidance (control); or 2) a modified set of timely emails informed by behavioral science principles(treatment).
 
-![image]({{site.baseurl}}/assets/img/project-images/1713-graph.png)
+![image]({{site.baseurl}}/assets/img/project-images/1713-graph.webp)
 
 ## What was the impact?
 

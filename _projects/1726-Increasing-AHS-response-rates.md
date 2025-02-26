@@ -1,16 +1,20 @@
 ---
-title:  Increasing AHS Response Rates
+title:  Increasing AHS response rates
 permalink: /projects/increasing-ahs-response/
-tags: project  
-image: /assets/img/project-images/1726.jpg  
-image-credit: https://commons.wikimedia.org/wiki/File:Dallas_skyline_and_suburbs.jpg
+tags:
+- project  
+share_image: /assets/img/project-images/1726.jpg
+image: /assets/img/project-images/1726.webp  
+image_alt_text: Dallas skyline
+image-credit: https://commons.wikimedia.org/wiki/File:Dallas_skyline_and_suburbs.webp
 analysis-plan: 
 abstract: /assets/abstracts/1726-increasing-ahs-response.pdf
 year: 2018  
+type: Impact evaluation of program change
 status: Complete
 domain: Communications
 agency: Census
-summary: A second advance letter does not significantly improve outcomes.
+summary: A second advance letter does not significantly improve outcomes
 ---
 ## What was the challenge?
 

@@ -1,18 +1,22 @@
 ---
-title: Increasing ART Adherence and Retention in Care for HIV Positive Women in Ethiopia
+title: Increasing ART adherence and retention in care for HIV positive women in Ethiopia
 permalink: /projects/increasing-art-adherence/
 tags:
   - project
   - USAID
-image: /assets/img/project-images/1722.jpg  
-image-credit: https://www.cdc.gov/globalhealth/countries/ethiopia/images/ethiopia_bloodwork.jpg
+share_image: /assets/img/project-images/1722.jpg
+image: /assets/img/project-images/1722.webp  
+image_alt_text: Doctor applying a vaccine
+image-credit: https://www.cdc.gov/globalhealth/countries/ethiopia/images/ethiopia_bloodwork.webp
 analysis-plan: /assets/analysis/1722-increasing-ART-adherence.pdf
 abstract: /assets/abstracts/1722-Project Abstract-6 Month.pdf
+academic-pub: /assets/publications/1722 - USAID Ethiopia Anteneh et al AEL 2020.pdf
 year: 2018 
+type: Impact evaluation of program change
 status: Complete
 domain: Health
 agency: United States Agency for International Development
-summary: Phone calls delivered to HIV+ women did not increase ART adherence.
+summary: Phone calls delivered to HIV+ women did not increase ART adherence
 ---
 ## What was the challenge?
 
@@ -24,10 +28,9 @@ To increase retention in care and ART adherence, health workers delivered encour
 
 ## How did the evaluation work?
 
-The evidence-based insight was tested with an individual level randomized control trial. All 866 study participants, HIV+ individuals not yet on ARTs, consented into the study. Approximately one-half of participants (n=436) were randomly assigned to receive the encouraging phone call and approximately one-half (n=430) were randomly assigned to the standard of care. An ordinary least squares (OLS) regression was used to compare retention in care and ART adherence, using existing administrative data, at 1 month, 3 months and 6 months. 
+The evidence-based insight was tested with an individual level randomized controlled trial. All 866 study participants, HIV+ individuals not yet on ARTs, consented into the study. Approximately one-half of participants (n=436) were randomly assigned to receive the encouraging phone call and approximately one-half (n=430) were randomly assigned to the standard of care. An ordinary least squares (OLS) regression was used to compare retention in care and ART adherence, using existing administrative data, at 1 month, 3 months and 6 months. 
 
-![image]({{site.baseurl}}/assets/img/project-images/1722-graph1.png)
-![image]({{site.baseurl}}/assets/img/project-images/1722-graph2.png)
+![image]({{site.baseurl}}/assets/img/project-images/1722-graph-1.webp)
 
 ## What was the impact?
 
@@ -35,8 +38,10 @@ The phone calls did not increase ART adherence or retention. The phone calls wer
 
 This study demonstrated that programmatic data from HIV/AIDS programs can be used to conduct a rigorous randomized test on priority USAID outcomes during the course of a program. Such data can also measure the effect of behaviorally-informed program changes on key targeted health outcomes. In future studies, larger sample sizes may be required to detect smaller changes resulting from low-cost interventions. 
 
-<i>To verify the upload date of our Analysis Plan, <a href="https://github.com/gsa-oes/office-of-evaluation-sciences/commits/master/assets/analysis/1722-increasing-ART-adherence.pdf">click here</a>.</i>
+![image]({{site.baseurl}}/assets/img/project-images/1722-graph-2.webp)
+
+Verify the upload date of our Analysis Plan <a href="https://github.com/gsa-oes/office-of-evaluation-sciences/commits/master/assets/analysis/1722-increasing-ART-adherence.pdf">on GitHub</a>.
 
 <i> Related Publication</i>
 <br>
-Aderaw Anteneh, Kelly Bidwell, Woldemariam Girma, Kristen Little, Nicholas Wilson, and Endale Workalemahu. <a href="https://www.tandfonline.com/doi/full/10.1080/13504851.2020.1761939">"Appraising praise: experimental evidence on positive framing and demand for health services."</a> Applied Economics Letters, (2020).
+Aderaw Anteneh, Kelly Bidwell, Woldemariam Girma, Kristen Little, Nicholas Wilson, and Endale Workalemahu. <a href="{{site.baseurl}}/assets/publications/1722 - USAID Ethiopia Anteneh et al AEL 2020.pdf">"Appraising praise: experimental evidence on positive framing and demand for health services."</a> Applied Economics Letters, (2020).

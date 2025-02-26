@@ -1,15 +1,18 @@
 ---
-title: Increasing Debt Repayment by Delinquent Lenders
+title: Increasing debt repayment by delinquent lenders
 permalink: /projects/increasing-debt-repayment/
 tags: project
-image: /assets/img/project-images/treasury.jpg
+share_image: /assets/img/project-images/treasury2.jpg
+image: /assets/img/project-images/treasury.webp
+image_alt_text: Treasury building front view
 image-credit: https://www.flickr.com/photos/kevlar/
 abstract: /assets/abstracts/1501-Delinquent-Debt-Repayment.pdf
 year: 2015
+type: Impact evaluation of program change
 status: Complete
 domain: Government Operations
 agency: Treasury
-summary: A modified letter sent to delinquent borrowers increased utilization of online payments.
+summary: A modified letter sent to delinquent borrowers increased utilization of online payments
 ---
 ## What was the challenge?
 
@@ -17,7 +20,7 @@ The Department of the Treasury’s Debt Management Services (DMS) was seeking to
 
 ## What was the program change?
 
-OES modified the DMS collection letter using insights such as simplification, personalization, social comparison, and emphasizing the total debt owed, to increase the rate of debt recovery.
+We modified the DMS collection letter using insights such as simplification, personalization, social comparison, and emphasizing the total debt owed, to increase the rate of debt recovery.
 
 ## How did the evaluation work?
 

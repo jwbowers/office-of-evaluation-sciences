@@ -3,28 +3,57 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  {% capture page_title -%}
+    {%- if page.title -%}{{- page.title }} | {{ site.title -}}{% else %}{{- site.title -}}{%- endif -%}
+  {%- endcapture -%}
+  <title>{{ page_title }}</title>
+  <meta property="og:title" content="{{ page_title }}" />
+  <meta name="twitter:title" content="{{ page_title }}" />
+
+  {% capture page_description -%}
+    {%- if page.excerpt -%}{{- page.excerpt | strip_html | newline_to_br | replace:'<br />','. ' | strip_newlines |truncate: 160 -}}{% else %}{{- site.description -}}{%- endif -%}
+  {%- endcapture -%}
+  <meta name="description" content="{{- page_description -}}" />
+  <meta property="og:description" content="{{- page_description -}}" />
+  <meta name="twitter:description" content="{{- page_description -}}" />
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:url" content="{{ page.permalink | replace:'index.html','' | prepend: site.url }}">
   <meta name="twitter:card" content="summary_large_image">
-  {% if site.feature_image %}<meta property="og:image" content="{{ site.feature_image | prepend: site.baseurl | prepend: site.url }}">{% endif %}
-  {% if site.feature_image %}<meta name="twitter:image" content="{{ site.feature_image | prepend: site.baseurl | prepend: site.url }}">{% endif %}
-  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:site" content="@OESatGSA" />
+    
+  {% capture page_image -%}
+    {{- site.url -}}{{- page.share_image or site.feature_image or '/assets/img/logos/oes-logo.png' -}}
+  {%- endcapture -%}
+  <meta property="og:image" content="{{ page_image }}" />
+  <meta name="twitter:image" content="{{ page_image }}" />
+
+  <link rel="stylesheet" href="{{ '/assets/css/uswds-theme.css' | prepend: site.baseurl }}" media="screen">
 
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
 
-  <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/img/favicon.ico' | prepend: site.baseurl }}" />
+  <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/img/logos/favicons/favicon-96x96.png' | prepend: site.baseurl }}" />
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl }}" />
   <script>
     if (/^www\./.test(window.location.hostname)) {
       window.location = window.location.href.replace('www.', '');
     }
-  </script>
+    </script>
+
+
+  
+  <!-- Favicons
+================================================== -->
+
+  <!--  Touch icon for iOS 2.0+ and Android 2.1+ -->
+  <link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}/assets/img/logos/favicons/favicon-96x96.png">
+
+  <!--  Desktop icon -->
+  <link rel="icon" href="{{ site.baseurl }}/assets/img/logos/favicons/favicon-96x96.png">
+
+  <!--  More info: https://github.com/audreyr/favicon-cheat-sheet -->
+ 
+  
 </head>

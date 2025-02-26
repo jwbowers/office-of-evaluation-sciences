@@ -1,14 +1,17 @@
 ---
-title:  "Increasing FAFSA Completion Among Public Housing Residents: Seattle and King County"
+title: Increasing FAFSA Completion among public housing residents - Seattle and King County
 permalink: /projects/increasing-fafsa-completion-seattle-and-king-county/
 tags: 
-  - project 
+  - project
   - highered
-image: /assets/img/project-images/1717.jpg  
+share_image: /assets/img/project-images/1717.jpg
+image: /assets/img/project-images/1717.webp
+image_alt_text: Graduation with a skyline view
 image-credit: https://www.flickr.com/photos/aaronrhawkins/34251338901
 analysis-plan: /assets/analysis/1717-increasing-fafsa-completion-phase-2.pdf
 abstract: /assets/abstracts/1717-Abstract-Seattle-and-King-County.pdf
-year: 2019  
+year: 2019
+type: Impact evaluation of program change
 status: Complete
 domain: Education
 agency: Housing and Urban Development
@@ -31,6 +34,6 @@ All 17-24 year old residents in residing in public housing in the Seattle Housin
 
 The results suggest the communications did not change FAFSA completion rates in the 2017 or 2018 academic years. The average FAFSA completion rate in SHA and KCHA was 47.4 percent and 46.2 percent for the 2017 and 2018 academic years, respectively. Sending the two letters is estimated to have increased FAFSA completion by 3.4 percentage points in the 2017 academic year and 3.6 percentage points in 2018 academic year over the synthetic comparison unit, but the estimates cannot be distinguished from zero. Robustness checks using different model specifications yield substantively similar results of a small, statistically insignificant, positive effect.
 
-![image]({{site.baseurl}}/assets/img/project-images/1717-seattle-graph.png)
+![image]({{site.baseurl}}/assets/img/project-images/1717-seattle-graph.webp)
 
-<i>To verify the upload date of our Analysis Plan, <a href="https://github.com/gsa-oes/office-of-evaluation-sciences/commits/master/assets/analysis/1717-increasing-fafsa-completion-phase-2.pdf">click here</a>.</i>
+Verify the upload date of our Analysis Plan <a href="https://github.com/gsa-oes/office-of-evaluation-sciences/commits/master/assets/analysis/1717-increasing-fafsa-completion-phase-2.pdf">on GitHub</a>.
