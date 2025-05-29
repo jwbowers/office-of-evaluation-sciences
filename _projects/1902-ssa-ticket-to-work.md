@@ -13,13 +13,12 @@ abstract-web: /results/increasing-participation-in-ticket-to-work/
 behavioral-map: /assets/files/1902-increasing-participation-in-ttw-behavioral-map.pdf
 intervention: /assets/files/1902-increasing-participation-in-ttw-intervention-pack.pdf
 year: 2023
-type: Impact evaluation of program change
-domain: Economic Opportunity, Employment, Health
+type: Impact evaluation
+domain: Economic Opportunity
 status: Complete
 agency: Social Security Administration
 summary: Redesigned mailings did not increase Ticket assignments, but had a small impact on Helpline calls
 featured: 
-  - services
 ---
 
 ## What is the agency priority?
@@ -57,8 +56,10 @@ Leveraging evidence-based insights to update the design of TTW outreach material
 
 A pre-registered exploratory analysis suggests that sending a mailing two years after award increased Ticket assignments among those in counties with relatively high unemployment. Future research could explore in more detail how the economic impacts of public emergencies such as the COVID-19 pandemic impact the effectiveness of outreach programs, why people might call the Helpline but not take up the program, or the impacts of redesigned TTW mailings over longer timeframes.
 
-*Notes:*
+Notes:
 1. Mathematica. “Characteristics, Employment, and Sources of Support Among Working-Age SSI and DI Beneficiaries.” PDF file. April 2009.
 2. Office of Evaluation Sciences. “How to design effective communications: What has OES learned?” PDF file. November 2022., Bhargava, S., & Manoli, D. (2015). Psychological frictions and the incomplete take-up of social benefits: Evidence from an IRS field experiment. *American Economic Review*, 105(11), 3489-3529.
+
+Read the [technical appendix]({{site.baseurl}}/assets/files/Increasing-participation-in-ttw_technical-appendix.pdf).
 
 Verify the upload date of our analysis plan on <a href="https://github.com/gsa-oes/office-of-evaluation-sciences/commits/master/assets/analysis/1902-analysis-plan.pdf">on GitHub</a> and access the registration information for this project in the <a href="https://www.socialscienceregistry.org/trials/6380">American Economic Association Registry for randomized control trials</a>.

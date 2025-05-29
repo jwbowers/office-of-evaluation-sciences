@@ -10,9 +10,9 @@ image-credit: https://unsplash.com/photos/78hTqvjYMS4
 analysis-plan: /assets/analysis/2205-analysis-plan.pdf
 abstract: 
 year: 2022  
-domain: Health
+domain: Efficiency and effectiveness
 agency: Social Security Administration
-type: Impact evaluation of program
+type: Impact evaluation
 status: Ongoing
 summary: Analysis Plan Registration
 featured: 
